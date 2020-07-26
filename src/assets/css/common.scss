@@ -128,8 +128,12 @@
   }
 }
 
-.content-box {
+.content-box, .content-inline-box {
   background-color: white;
   border-radius: 5px;
   box-shadow: 0px 9px 12px -1px rgba(0,0,0,0.47);
+}
+
+.content-inline-box {
+  display: inline-block;
 }

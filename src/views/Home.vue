@@ -1,15 +1,15 @@
 <template>
   <div class="home">
     <Hero />
-    <ContentNavbar class="bms-container content-navbar" />
-    <div id="home" class="bms-container">
+    <ContentNavbar id="home" class="bms-container content-navbar" />
+    <div class="bms-container content-home">
       <div class="home__content p-1 m-1 m-b-2 m-t-0">
         <router-view />
       </div>
     </div>
     <div v-if="isOpenVideos"
          id="video"
-         class="home__section__wrapper"
+         class="home__section__wrapper content-video"
          aria-labelledby="carouselheading">
       <text-section class="home__section">
         <h2 id="carouselheading" slot="title" class="bms-container">
@@ -100,7 +100,7 @@ export default {
 
 <style lang="scss" scoped>
 
-.content-navbar {
+.content-navbar, .content-home, .content-video {
   position: relative;
   top: -70px;
 }
