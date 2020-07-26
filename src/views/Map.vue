@@ -13,7 +13,7 @@
 
 <script>
 import TextSection from '../components/TextSection';
-import worldMap from '../assets/img/bms/world-map.svg';
+import worldMap from '../assets/img/bms-3/world-map.svg';
 
 export default {
   name: 'Map',
@@ -21,9 +21,9 @@ export default {
       TextSection,
   },
   data() {
-      return {
-        worldMap,
-      };
+    return {
+      worldMap,
+    };
   },
 }
 </script>

@@ -4,6 +4,8 @@ import Home from '../views/Home';
 import Privacy from '../views/Privacy';
 import Violation from '../views/Violation';
 import Map from '../views/Map';
+import What from '../views/What';
+import Tips from '../views/Tips';
 
 
 Vue.use(Router);
@@ -14,8 +16,6 @@ export default new Router({
   scrollBehavior: function (to, from, savedPosition) {
     if (to.hash) {
       return { selector: to.hash }
-    } else {
-      return { x: 0, y: 0 }
     }
   },
   routes: [
@@ -29,6 +29,24 @@ export default new Router({
       path: '/index',
       name: 'index',
       component: Home,
+      redirect: { name: 'what' },
+      children: [
+        {
+          path: '/what',
+          name: 'what',
+          component: What,
+        },
+        {
+          path: '/tips',
+          name: 'tips',
+          component: Tips,
+        },
+        {
+          path: '/what-is-violation',
+          name: 'violation',
+          component: Violation,
+        },
+      ]
     },
     {
       path: '/privacy',
@@ -36,14 +54,13 @@ export default new Router({
       component: Privacy,
     },
     {
-      path: '/what-is-violation',
-      name: 'violation',
-      component: Violation,
-    },
-    {
       path: '/map',
       name: 'map',
       component: Map,
+    },
+    {
+      path: '**',
+      redirect: { name: 'what' },
     },
   ],
 });

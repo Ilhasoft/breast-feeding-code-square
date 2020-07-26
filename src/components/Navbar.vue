@@ -1,20 +1,20 @@
 <template>
   <div class="navbar__wrapper">
-    <nav class="navbar"
+    <nav class="navbar bms-container"
          role="navigation"
          aria-label="dropdown navigation">
       <div class="navbar-brand">
         <a href="/"
-           title="Baby Feeding Codifier">
+           title="Baby Feeding Code Square">
           <img class="navbar-item navbar__logo"
-               src="@/assets/img/bms/bms-nav-logo.svg"
-               alt="Baby Feeding Codifier logo">
+               src="@/assets/img/bms/bms-chat-logo.svg"
+               alt="Baby Feeding Code Square logo">
         </a>
 
         <a class="navbar-item"
            href="/"
-           title="BBaby Feeding Codifier">
-          <h1 class="navbar__title"> Baby Feeding Codifier </h1>
+           title="BBaby Feeding Code Square">
+          <h1 class="navbar__title"> Baby Feeding Code Square </h1>
         </a>
 
         <div class="navbar-burger" :class="{ 'is-active': modalActive }">
@@ -72,11 +72,6 @@ export default {
             id: "home",
             title: this.$t('navbar.home'),
             to: `index#home`,
-          },
-          {
-            id: "about",
-            title: this.$t('navbar.about'),
-            to: `index#about`,
           },
           {
             id: "map",
@@ -174,14 +169,13 @@ export default {
   &__title {
     color: white;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 1em;
     line-height: 1.5;
-    font-weight: 400;
     letter-spacing: 2px;
-    font-family: "Raleway", sans-serif;
+    font-weight: bold;
 
     @media (max-width: 768px) {
-      font-size: 20px;
+      font-size: 0.9em;
     }
     @media (max-width: 500px) {
       display: none;

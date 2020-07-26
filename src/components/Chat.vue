@@ -35,14 +35,14 @@ export default {
   },
   watch: {
     getLanguage() {
-      if (!this.initalized) {
-        this.initalized = true;
-        this.setupChat();
-        this.updateOpenStatus();
-      } else {
-        WebChat.dropMessages();
-        this.sendInitial()
-      }
+      // if (!this.initalized) {
+      //   this.initalized = true;
+      //   this.setupChat();
+      //   this.updateOpenStatus();
+      // } else {
+      //   WebChat.dropMessages();
+      //   this.sendInitial()
+      // }
     },
     $route (to){
       if (to.hash.indexOf('webchat') !== -1 && !WebChat.isOpen()) {
@@ -77,7 +77,7 @@ export default {
         initPayload: this.initialPayload,
         channelUuid: 'f2cc9ec6-07f1-407a-8948-ece57761d88e',
         host: 'https://rapidpro.ilhasoft.mobi',
-        title: 'Baby Feeding Codifier',
+        title: 'Baby Feeding Code Square',
         inputTextFieldHint: "Type a question...",
         profileAvatar: require('@/assets/img/bms/bms-chat-logo.svg'),
         openLauncherImage: require('@/assets/img/bms/bms-chat-logo.svg'),

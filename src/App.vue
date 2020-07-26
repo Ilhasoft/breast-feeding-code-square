@@ -30,14 +30,14 @@ export default {
 </script>
 
 <style lang="scss">
+@import "assets/css/variables";
+@import "assets/css/common";
 @import '~@mdi/font/css/materialdesignicons.css';
 @import '~@mdi/font/css/materialdesignicons.min.css';
-@import "~bulma/css/bulma.css";
-@import "assets/css/common";
+@import "~bulma/bulma";
 
 html {
   scroll-behavior: smooth;
-  background-image: linear-gradient(to bottom, #bdd9e4, #FFF 20%);
   background-repeat: no-repeat;
 }
 body.opened.mobile {
@@ -46,7 +46,7 @@ body.opened.mobile {
   }
 }
 body {
-  padding-top: 80px;
+  /*padding-top: 80px;*/
 }
 button {
   cursor: pointer;
@@ -61,8 +61,7 @@ button {
 
 .navbar__wrapper, .content-container {
   > * {
-    max-width: 1050px;
-    margin: 0 auto;
+
   }
 
 }

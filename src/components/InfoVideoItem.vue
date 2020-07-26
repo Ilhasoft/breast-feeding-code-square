@@ -15,13 +15,13 @@
 
 <script>
 export default {
-    name: 'InfoVideoItem',
-    props: {
-        video: {
-            type: Object,
-            required: true,
-        },
-    }
+  name: 'InfoVideoItem',
+  props: {
+      video: {
+          type: Object,
+          required: true,
+      },
+  },
 }
 </script>
 
