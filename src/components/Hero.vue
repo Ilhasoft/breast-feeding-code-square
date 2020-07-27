@@ -17,6 +17,16 @@
                alt="UNICEF logo">
         </div>
       </div>
+      <router-link
+        to=""
+        class="banner__btn content-inline-box">
+        <img class="banner__img-eca p-0"
+             src="@/assets/img/bms/group-5.svg"
+             alt="UNICEF logo">
+        <span class="p-0">
+          {{ $t('hero.button') }}
+        </span>
+      </router-link>
     </div>
   </div>
 </template>
@@ -49,7 +59,6 @@
   padding: 80px 0 140px;
   background-repeat: no-repeat;
   margin-bottom: 20px;
-  position: relative;
   overflow: hidden;
   font-family: "Open Sans", sans-serif;
   color: #212529;
@@ -60,6 +69,26 @@
 
   .bms-container {
     text-align: center;
+    position: relative;
+  }
+
+  &__btn {
+    display: flex;
+    width: 180px;
+    background-color: #0886fe;
+    color: white;
+    font-size: 0.9em;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    padding: 0.5em;
+    align-items: center;
+    @media (max-width: 769px) {
+      position: inherit;
+      top: inherit;
+      right: inherit;
+      margin: 0 auto;
+    }
   }
 
   &__img {
@@ -79,9 +108,6 @@
       width: 25vh;
     }
 
-    @media (max-width: 350px) {
-      min-width: inherit;
-    }
   }
 }
 

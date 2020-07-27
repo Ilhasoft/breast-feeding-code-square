@@ -1,6 +1,6 @@
 <template>
   <div class="content-navbar">
-    <div class="columns has-text-centered m-1 m-l-0 m-r-0">
+    <div class="columns has-text-centered-tablet m-1 m-l-0 m-r-0">
       <router-link
          :to="{ name: 'what' }"
          class="column is-4 p-1"
@@ -79,8 +79,19 @@ $color: #36ade1;
   }
 
   @media (max-width: 769px) {
-    .content-inline-box {
-      margin-bottom: 1.5em;
+    .content-box {
+      display: flex;
+      align-items: center;
+      .subtitle {
+        font-size: 1em;
+      }
+      .content-inline-box {
+        margin-right: 1em;
+        img {
+          width: 30px;
+          max-width: 30px;
+        }
+      }
     }
   }
 

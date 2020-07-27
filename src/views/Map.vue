@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bms-container">
     <text-section class="map p-1">
       <p slot="title">
         {{ $t('map.title') }}
