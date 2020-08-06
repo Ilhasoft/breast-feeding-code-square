@@ -133,6 +133,7 @@ body.mobile #webchat .widget-container.chat-open {
 #webchat .conversation-container .title.with-avatar {
   color: white;
   font-size: 0.95em;
+  font-family: 'Poppins', sans-serif;
 }
 
 .launcher {

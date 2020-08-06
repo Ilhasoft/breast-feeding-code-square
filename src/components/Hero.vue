@@ -19,7 +19,7 @@
         </div>
       </div>
       <router-link
-        to=""
+        to="#webchat"
         class="banner__btn content-inline-box">
         <img class="banner__img-eca p-0"
              src="@/assets/img/bms/group-5.svg"
