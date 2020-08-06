@@ -56,14 +56,10 @@
 
     "videos": {
         "title": "Learn More",
-        "video_1_title": "",
-        "video_1_url": "",
-        "video_2_title": "",
-        "video_2_url": "",
-        "video_3_title": "",
-        "video_3_url": "",
-        "video_4_title": "",
-        "video_4_url": ""
+        "video_1_title": "Breastfeeding master class | UNICEF",
+        "video_1_url": "https://www.youtube.com/embed/mTm9zvz5-Dc",
+        "video_2_title": "Unicef UK Baby Friendly Initiative | Helen Crawley: working within the Code",
+        "video_2_url": "https://www.youtube.com/embed/9wRHoI1cMFM"
     },
 
     "extraInfo": {

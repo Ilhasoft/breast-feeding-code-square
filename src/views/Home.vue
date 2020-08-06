@@ -57,14 +57,6 @@ export default {
           url: this.$t('videos.video_2_url'),
           title: this.$t('videos.video_2_title'),
         },
-        {
-          url: this.$t('videos.video_3_url'),
-          title: this.$t('videos.video_3_title'),
-        },
-        {
-          url: this.$t('videos.video_4_url'),
-          title: this.$t('videos.video_4_title'),
-        },
       ];
     },
     resetVideos() {
