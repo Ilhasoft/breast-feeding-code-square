@@ -13,6 +13,8 @@
         </a>
       </div>
       <div class="footer__links">
+        <div v-html="$t('footer.eca')">
+        </div>
         <div>
           <router-link :to="'privacy'" :title="$t('footer.policy')">
             {{ $t('footer.policy') }}
