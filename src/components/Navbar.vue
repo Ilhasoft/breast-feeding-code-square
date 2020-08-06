@@ -173,6 +173,7 @@ export default {
     line-height: 1.5;
     letter-spacing: 2px;
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 
     @media (max-width: 768px) {
       font-size: 0.9em;
