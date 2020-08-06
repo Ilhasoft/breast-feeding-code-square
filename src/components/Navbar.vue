@@ -74,19 +74,19 @@ export default {
             to: `index#home`,
           },
           {
+            id: "webchat",
+            title: this.$t('navbar.bot'),
+            to: `index#webchat`,
+          },
+          {
             id: "map",
             title: this.$t('navbar.map'),
             to: { name: 'map' },
           },
           {
-            id: "video",
+            id: "learn-more",
             title: this.$t('navbar.videos'),
-            to: `index#video`,
-          },
-          {
-            id: "webchat",
-            title: this.$t('navbar.bot'),
-            to: `index#webchat`,
+            to: `index#learn-more`,
           },
         ];
       },
@@ -163,7 +163,7 @@ export default {
     right: 0;
     z-index: 29;
     top: 0;
-    background-color: #047afb;
+    background-color: #fe207c;
   }
 
   &__title {

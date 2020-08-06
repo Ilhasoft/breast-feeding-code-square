@@ -1,17 +1,18 @@
 <template>
   <div class="banner">
     <div class="bms-container">
-      <img class="banner__img-bms"
-           src="@/assets/img/bms/brastfeeding-logo.png"
-           alt="BMS logo">
-
       <div class="columns m-t-1">
-        <div class="column is-6 has-text-right-tablet">
+        <div class="column is-4">
+          <img class="banner__img-bms"
+               src="@/assets/img/bms/brastfeeding-logo.png"
+               alt="BMS logo">
+        </div>
+        <div class="column is-2 center-img">
           <img class="banner__img-unicef"
                src="@/assets/img/bms/unicef.svg"
                alt="UNICEF logo">
         </div>
-        <div class="column is-6 has-text-left-tablet">
+        <div class="column is-6 center-img has-text-left-tablet p-l-1">
           <img class="banner__img-eca"
                src="@/assets/img/bms/eca.svg"
                alt="UNICEF logo">
@@ -54,9 +55,8 @@
 
 .banner {
   /*background-image: url(../assets/img/bms/bg-header.png);*/
-
-  background-image: linear-gradient(to bottom, #28a7df, #47c9ef 60%);
-  padding: 80px 0 140px;
+  background-image: linear-gradient(to bottom, #fe207c, #f8ded1 60%);
+  padding: 80px 0 90px;
   background-repeat: no-repeat;
   margin-bottom: 20px;
   overflow: hidden;
@@ -75,7 +75,7 @@
   &__btn {
     display: flex;
     width: 180px;
-    background-color: #0886fe;
+    background-color: #fe207c;
     color: white;
     font-size: 0.9em;
     position: absolute;
@@ -101,7 +101,7 @@
     }
 
     &-unicef {
-      width: 15vh;
+      width: 25vh;
     }
 
     &-ecta {
@@ -110,5 +110,10 @@
 
   }
 }
-
+@media (min-width: 769px) {
+  .center-img {
+    display: flex;
+    align-items: center;
+  }
+}
 </style>

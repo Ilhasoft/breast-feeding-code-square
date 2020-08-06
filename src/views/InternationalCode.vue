@@ -1,17 +1,15 @@
 <template>
   <div
-    class="violation"
+    class="international-code"
   >
     <text-section>
       <p slot="title">
-        {{ $t('violation.title') }}
+        {{ $t('international-code.title') }}
       </p>
       <div slot="text">
         <div v-for="index in 5" :key="index">
-          <strong>
-            {{ $t(`violation.section_${index}_title`) }}
-          </strong>
-          <p v-html="$t(`violation.section_${index}_text`)">
+          <p>
+            {{ $t(`international-code.section_${index}_text`) }}
           </p>
           <br>
         </div>
@@ -21,10 +19,10 @@
 </template>
 
 <script>
-import TextSection from '../components/TextSection';
+import TextSection from '@/components/TextSection';
 
 export default {
-    name: 'Violation',
+    name: 'InternationalCode',
     components: {
         TextSection,
     },
@@ -32,14 +30,9 @@ export default {
 </script>
 
 <style lang="scss">
-
-.violation {
+.international-code {
   /deep/ .section__title {
-    color: #53ec25;
-  }
-  ul {
-    padding-left: 1.2em;
-    list-style: inherit;
+    color: #36ade1;
   }
 }
 </style>

@@ -8,7 +8,7 @@
       </div>
     </div>
     <div v-if="isOpenVideos"
-         id="video"
+         id="learn-more"
          class="home__section__wrapper content-video"
          aria-labelledby="carouselheading">
       <text-section class="home__section">

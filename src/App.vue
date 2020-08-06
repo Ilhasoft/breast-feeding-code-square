@@ -41,7 +41,7 @@ html {
   background-repeat: no-repeat;
 }
 body.opened.mobile {
-  #home, #how, #about, #video {
+  #home, #how, #about, #learn-more {
     display: none;
   }
 }
