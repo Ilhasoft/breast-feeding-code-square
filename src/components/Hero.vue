@@ -12,11 +12,6 @@
                src="@/assets/img/bms/unicef.svg"
                alt="UNICEF logo">
         </div>
-        <div class="column is-6 center-img has-text-left-tablet p-l-1">
-          <img class="banner__img-eca"
-               src="@/assets/img/bms/eca.svg"
-               alt="UNICEF logo">
-        </div>
       </div>
       <router-link
         to="#webchat"
