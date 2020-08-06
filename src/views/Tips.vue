@@ -44,4 +44,9 @@ export default {
 </script>
 
 <style lang="scss">
+.how {
+  /deep/ .section__title {
+    color: #f9a028;
+  }
+}
 </style>

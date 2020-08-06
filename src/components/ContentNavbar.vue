@@ -2,13 +2,41 @@
   <div class="content-navbar">
     <div class="columns has-text-centered-tablet m-1 m-l-0 m-r-0">
       <router-link
-         :to="{ name: 'what' }"
-         class="column is-4 p-1"
-      >
+        :to="{ name: 'internationalCode' }"
+        class="international-code column is-3 p-1">
         <div class="content-box p-1">
           <div>
             <div class="content-inline-box p-1">
               <img src="../assets/img/bms/group-1.svg" />
+            </div>
+          </div>
+          <span class="subtitle">
+            {{ $t('international-code.title') }}
+          </span>
+        </div>
+      </router-link>
+      <router-link
+        :to="{ name: 'violation' }"
+        class="violation column is-3 p-1">
+        <div class="content-box p-1">
+          <div>
+            <div class="content-inline-box p-1">
+              <img src="../assets/img/bms/group-2.svg" />
+            </div>
+          </div>
+          <span class="subtitle">
+            {{ $t('violation.title') }}
+          </span>
+        </div>
+      </router-link>
+      <router-link
+        :to="{ name: 'what' }"
+        class="what column is-3 p-1"
+      >
+        <div class="content-box p-1">
+          <div>
+            <div class="content-inline-box p-1">
+              <img src="../assets/img/bms/group-3.svg" />
             </div>
           </div>
           <span class="subtitle">
@@ -18,29 +46,15 @@
       </router-link>
       <router-link
         :to="{ name: 'tips' }"
-        class="column is-4 p-1">
+        class="tips column is-3 p-1">
         <div class="content-box p-1">
           <div>
             <div class="content-inline-box p-1">
-              <img src="../assets/img/bms/group-2.svg" />
+              <img src="../assets/img/bms/group-4.svg" />
             </div>
           </div>
           <span class="subtitle">
             {{ $t('tips.title') }}
-          </span>
-        </div>
-      </router-link>
-      <router-link
-        :to="{ name: 'violation' }"
-        class="column is-4 p-1">
-        <div class="content-box p-1">
-          <div>
-            <div class="content-inline-box p-1">
-              <img src="../assets/img/bms/group-3.svg" />
-            </div>
-          </div>
-          <span class="subtitle">
-            {{ $t('violation.title') }}
           </span>
         </div>
       </router-link>
@@ -71,10 +85,23 @@ $color: #36ade1;
 
   .router-link-active {
     .content-box {
-      background-color: $color;
       .subtitle {
         color: white;
       }
+    }
+    &.international-code .content-box {
+      background-color:  $color;
+    }
+    &.violation .content-box {
+      background-color:  #53ec25;
+    }
+
+    &.what .content-box {
+      background-color:  #fe207c;
+    }
+
+    &.tips .content-box {
+      background-color:  #f9a028;
     }
   }
 
@@ -106,5 +133,21 @@ $color: #36ade1;
     }
   }
 
+}
+
+.content-navbar .international-code .subtitle {
+  color: $color;
+}
+
+.content-navbar .violation .subtitle {
+  color: #53ec25;
+}
+
+.content-navbar .what .subtitle {
+  color: #fe207c;
+}
+
+.content-navbar .tips .subtitle {
+  color: #f9a028;
 }
 </style>

@@ -38,7 +38,7 @@ export default {
           margin-top: -10px;
           font-size: 48px;
             float: left;
-            color: #2089fb;
+            color: #fe207c;
         }
 
         &__title {

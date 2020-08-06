@@ -6,6 +6,7 @@ import Violation from '../views/Violation';
 import Map from '../views/Map';
 import What from '../views/What';
 import Tips from '../views/Tips';
+import InternationalCode from '../views/InternationalCode';
 
 
 Vue.use(Router);
@@ -45,6 +46,11 @@ export default new Router({
           path: '/what-is-violation',
           name: 'violation',
           component: Violation,
+        },
+        {
+          path: '/international-code',
+          name: 'internationalCode',
+          component: InternationalCode,
         },
       ]
     },

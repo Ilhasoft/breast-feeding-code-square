@@ -147,7 +147,7 @@ body.mobile #webchat .widget-container.chat-open {
   content: '';
   width: 8vh;
   height: 8vh;
-  border: 4px solid #2089fb;
+  border: 4px solid #fe207c;
   border-radius: 50%;
   position: absolute;
   animation: pulsate infinite 1.4s;
@@ -170,7 +170,7 @@ body.mobile #webchat .widget-container.chat-open {
   align-items: center;
 
   display: inline-block;
-  background-color: #2089fb;
+  background-color: #fe207c;
   border: 0;
   width: 40px;
   cursor: pointer;

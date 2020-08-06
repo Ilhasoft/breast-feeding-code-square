@@ -64,7 +64,7 @@ $img-height: 9vh;
   }
 
   &__info-images, &__info {
-    background-color: #047afb;
+    background-color: #fe207c;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -103,7 +103,7 @@ $img-height: 9vh;
   }
 
   a {
-    color: #2089fb;
+    color: #fe207c;
   }
 
   a:hover {

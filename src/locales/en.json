@@ -3,9 +3,9 @@
         "home": "Home",
         "about": "About",
         "map": "Map Code Square",
-        "videos": "Videos",
+        "videos": "Learn More",
         "languages": "Languages",
-        "bot": "Bot"
+        "bot": "Chat"
     },
 
     "hero": {
@@ -14,6 +14,14 @@
         "button": "Would you like to report a violation?"
     },
 
+    "international-code": {
+        "title": "What is the International Code for marketing BMS?",
+        "section_1_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "section_2_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "section_3_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "section_4_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "section_5_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
 
     "features": {
         "title": "What is Baby Feeding Code Square?",
@@ -47,7 +55,7 @@
     },
 
     "videos": {
-        "title": "Videos",
+        "title": "Learn More",
         "video_1_title": "",
         "video_1_url": "",
         "video_2_title": "",
@@ -68,7 +76,7 @@
     },
 
     "violation": {
-        "title": "What is a Violation?",
+        "title": "What is a violation of the code?",
         "section_1_title": "Violation 1 Follow-up formula (Follow-on milk)",
         "section_1_text": "A follow-up formula is marketed or otherwise represented to be suitable, with or without modification, or used as a partial or total replacement for breast milk, it is covered by the Code. In addition, where followup formula is otherwise represented in a manner that results in such product being perceived or used as a partial or total replacement for breastmilk, such product also falls within the scope of the Code.",
         "section_2_title": "Violation 2 ii. Growing-up milk",
