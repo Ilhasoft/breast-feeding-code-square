@@ -8,8 +8,10 @@
       </p>
       <div slot="text">
         <div v-for="index in 5" :key="index">
-          <p>
-            {{ $t(`international-code.section_${index}_text`) }}
+          <strong>
+            {{ $t(`international-code.section_${index}_title`) }}
+          </strong>
+          <p v-html="$t(`international-code.section_${index}_text`)">
           </p>
           <br>
         </div>
@@ -34,5 +36,10 @@ export default {
   /deep/ .section__title {
     color: #36ade1;
   }
+  ul {
+    padding-left: 1.2em;
+    list-style: inherit;
+  }
+
 }
 </style>

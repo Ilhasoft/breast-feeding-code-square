@@ -16,11 +16,16 @@
 
     "international-code": {
         "title": "What is the International Code for marketing BMS?",
-        "section_1_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-        "section_2_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-        "section_3_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-        "section_4_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-        "section_5_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+        "section_1_title": "What is the International Code of Marketing of Breast-milk Substitutes (BMS)?",
+        "section_1_text": "It’s a set of recommendations designed to regulate the marketing and distribution of breast milk substitutes, feeding bottles and teats. \nIt was introduced in 1981 in response to the concerns being raised about the marketing of breast milk substitutes in developing countries.",
+        "section_2_title": "How was it created?",
+        "section_2_text": "The Code was adopted as a resolution by the World Health Assembly (WHA), the decision-making body of the WHO, in May 1981. This followed extensive consultation with key stakeholders - including governments, United Nations agencies, civil society, and infant food manufacturers.",
+        "section_3_title": "Why was the Code introduced?",
+        "section_3_text": "Unethical marketing of breastmilk substitutes, bottles, and teats can reduce breastfeeding rates, putting the health of children and mothers at risk and resulting in unnecessary costs for families and countries. \nThe International Code of Marketing of Breast-milk Substitutes aims to, therefore, protect and promote breastfeeding by ensuring appropriate marketing and distribution of breastmilk substitutes.",
+        "section_4_title": "Scope",
+        "section_4_text": "The Code applies to breastmilk substitutes when marketed or otherwise represented as a partial or total replacement for breastmilk. These breastmilk substitutes can include food and beverages such as: <ul><li>Infant formula</li> <li>follow-up formula or Growing-up milk</li><li>condensed milk</li><li>Sweetened condensed milk</li><li>The bottle or teat</li>",
+        "section_5_title": "Summary",
+        "section_5_text": "Strong and well-enforced national legislation can reduce the unethical marketing of breastmilk substitutes, bottles, and teats and ensure support for breastfeeding.<br><br>Adopting the full provisions of the Code into national legislation allows countries to regulate the marketing of BMS and is one method to ensure that mothers and families receive unbiased information about the healthiest way to feed their infants and young children.<br><br>The Code includes important measures for health facilities and personnel, including a mandate to decline gifts from formula companies and to not promote BMS, bottles, and teats. Health providers must understand these responsibilities and should be equipped with the knowledge and skills to support recommended breastfeeding practices, including minimizing harm among children who require BMS for medical reasons or when a mother may choose<br>not to breastfeed. <br><br>Even where the Code has been adopted in legislation, enforcement is often weak, and violations frequently occur. Routine monitoring of the Code and its implementation, undertaken by designated actors within functional enforcement systems, has been demonstrated to decrease national Code violations.<br><br>Governments, political leaders, and health care providers all have a role to play in improving health outcomes by strengthening, monitoring, and enforcing national Code legislation. Strong regulations on the marketing of BMS ensure that parents can make informed decisions about how to feed their children so that children receive the full benefits of breastfeeding.<br>"
     },
 
     "features": {
@@ -48,9 +53,9 @@
             "emphasis_3": "3.",
             "emphasis_4": "4.",
             "text_1": "Select your language from the language dropdown menu at the top of this web page.",
-            "text_2": "Select from the list of common questions to get quick answers.",
+            "text_2": "Select from the list of common questions to get quick answers and submit your questions if you wish to learn more about exclusive breastfeeding and or the national and international code of marketing of baby formulas.",
             "text_3": "Submit your questions if you wish to learn more about exclusive breastfeeding and or the national and international code of marketing of BMS.",
-            "text_4": "From the comfort of your home, enforce the implementation of the international code for marketing BMS. "
+            "text_4": "Report your experiences of the Code being violated in your city, From the comfort of your home by detailing your experience, enforce the implementation of the international code for marketing Breast-Milk Substitutes or baby formulas."
         }
     },
 
@@ -87,7 +92,7 @@
     },
 
     "map": {
-        "title": "Map Code Square"
+        "title": "Coming Soon"
     },
 
     "policy": {
