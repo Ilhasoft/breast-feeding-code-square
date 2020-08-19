@@ -30,7 +30,7 @@ export default new Router({
       path: '/index',
       name: 'index',
       component: Home,
-      redirect: { name: 'what' },
+      redirect: { name: 'internationalCode' },
       children: [
         {
           path: '/what',
