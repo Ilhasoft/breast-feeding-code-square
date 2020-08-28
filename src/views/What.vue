@@ -68,4 +68,9 @@ export default {
 </script>
 
 <style lang="scss">
+.about {
+  /deep/ .section__title {
+    color: #fe207c;
+  }
+}
 </style>
