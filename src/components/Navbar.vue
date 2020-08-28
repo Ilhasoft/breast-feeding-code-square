@@ -163,7 +163,7 @@ export default {
     right: 0;
     z-index: 29;
     top: 0;
-    background-color: #fe207c;
+    background-color: #047afb;
   }
 
   &__title {

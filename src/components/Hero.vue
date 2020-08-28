@@ -50,7 +50,7 @@
 
 .banner {
   /*background-image: url(../assets/img/bms/bg-header.png);*/
-  background-image: linear-gradient(to bottom, #fe207c, #f8ded1 60%);
+  background-image: linear-gradient(to bottom, #2089fb, #47c9ef 60%);
   padding: 80px 0 90px;
   background-repeat: no-repeat;
   margin-bottom: 20px;
@@ -70,7 +70,7 @@
   &__btn {
     display: flex;
     width: 180px;
-    background-color: #fe207c;
+    background-color: #0886fe;
     color: white;
     font-size: 0.9em;
     position: absolute;
