@@ -4,6 +4,7 @@ import Home from '../views/Home';
 import Privacy from '../views/Privacy';
 import Violation from '../views/Violation';
 import Map from '../views/Map';
+import BreastfeedingInCovid19 from '../views/BreastfeedingInCovid19';
 import What from '../views/What';
 import Tips from '../views/Tips';
 import InternationalCode from '../views/InternationalCode';
@@ -33,7 +34,12 @@ export default new Router({
       redirect: { name: 'internationalCode' },
       children: [
         {
-          path: '/what',
+          path: '/breastfeeding-in-covid19',
+          name: 'breastfeeding-in-covid19',
+          component: BreastfeedingInCovid19,
+        },
+        {
+          path: '/what-is-bfcs',
           name: 'what',
           component: What,
         },
@@ -66,7 +72,7 @@ export default new Router({
     },
     {
       path: '**',
-      redirect: { name: 'what' },
+      redirect: { name: 'breastfeeding-in-covid19' },
     },
   ],
 });
