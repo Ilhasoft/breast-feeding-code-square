@@ -3,7 +3,7 @@
     <div class="columns has-text-centered-tablet m-1 m-l-0 m-r-0">
       <router-link
         :to="{ name: 'internationalCode' }"
-        class="international-code column is-3 p-1">
+        class="international-code column is-one-fifth p-1">
         <div class="content-box p-1">
           <div>
             <div class="content-inline-box p-1">
@@ -17,7 +17,7 @@
       </router-link>
       <router-link
         :to="{ name: 'violation' }"
-        class="violation column is-3 p-1">
+        class="violation column is-one-fifth p-1">
         <div class="content-box p-1">
           <div>
             <div class="content-inline-box p-1">
@@ -30,8 +30,8 @@
         </div>
       </router-link>
       <router-link
-        :to="{ name: 'what' }"
-        class="what column is-3 p-1"
+        :to="{ name: 'breastfeeding-in-covid19' }"
+        class="what column is-one-fifth p-1"
       >
         <div class="content-box p-1">
           <div>
@@ -46,7 +46,7 @@
       </router-link>
       <router-link
         :to="{ name: 'tips' }"
-        class="tips column is-3 p-1">
+        class="tips column is-one-fifth p-1">
         <div class="content-box p-1">
           <div>
             <div class="content-inline-box p-1">
@@ -55,6 +55,20 @@
           </div>
           <span class="subtitle">
             {{ $t('tips.title') }}
+          </span>
+        </div>
+      </router-link>
+      <router-link
+        :to="{ name: 'what' }"
+        class="what column is-one-fifth p-1">
+        <div class="content-box p-1">
+          <div>
+            <div class="content-inline-box p-1">
+              <img src="../assets/img/bms/group-6.svg" />
+            </div>
+          </div>
+          <span class="subtitle">
+            {{ $t('international-code.title') }}
           </span>
         </div>
       </router-link>
@@ -96,12 +110,16 @@ $color: #36ade1;
       background-color:  #53ec25;
     }
 
-    &.what .content-box {
+    &.breastfeeding-in-covid19 .content-box {
       background-color:  #fe207c;
     }
 
     &.tips .content-box {
       background-color:  #f9a028;
+    }
+
+    &.what .content-box {
+      background-color:  #c6422f;
     }
   }
 

@@ -29,7 +29,7 @@
     },
 
     "features": {
-        "title": "What is Baby Feeding Code Square?",
+        "title": "Breastfeeding in the context of COVID19?",
         "text_1": "Breast milk provides antibodies that give babies everywhere a healthy boost and protect them against many infections. Antibodies and bioactive factors in breast milk may fight against COVID-19 infection if the baby is exposed. In addition, the corona virus has not been found in breast milk, and transmission via breastfeeding has not been demonstrated.",
         "text_2": "Based on global WHO/UNICEF guidelines and nationally recommended feeding practices, it is important to:",
         "feature_1_title": "",
@@ -41,6 +41,12 @@
         "feature_4_title": "",
         "feature_4_text": "Continue breastfeeding for up to 2 years of age or beyond.",
         "text_3": "In view of the vulnerability of infants in the early months of life and the risks involved in inappropriate feeding practices, including unnecessary and improper use of breast milk substitutes, the marketing of breast milk substitutes requires special treatment, which makes usual marketing practices unsuitable for these products."
+    },
+
+    "what": {
+        "title": "What is Baby Feeding Code Square?",
+        "text_1": "The overall aim of Baby Feeding Code Square, is to setup a Realtime self-reporting platform which enables families, care givers and whoever has the concern of baby feeding, to report cases of violation of the BMS code, in a given facility (such as; points of sale at pharmacies and retail stores, or through promotion by the personnel of public and private clinics and maternities, hospitals and even through public media and, etc.)",
+        "text_2": "This tool will also provide the key user-friendly tips to care givers to raise their awareness on the main features of the international code of marketing of BMS and by providing examples of violation of the code in different settings."
     },
 
     "tips": {
