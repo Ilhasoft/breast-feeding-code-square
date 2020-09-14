@@ -1,6 +1,6 @@
 <template>
   <div
-    class="about"
+    class="what"
   >
     <text-section id="what"
                   class="home__section">
@@ -31,7 +31,7 @@ export default {
 </script>
 
 <style lang="scss">
-.about {
+.what {
   /deep/ .section__title {
     color: #c6422f;
   }

@@ -1,6 +1,6 @@
 <svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="14.334" y="19.7007" width="17.8255" height="17.8255" transform="rotate(45 14.334 19.7007)" fill="#fe207c" stroke="#fe207c" stroke-width="2"/>
-<rect x="50.8809" y="19.7007" width="17.8255" height="17.8255" transform="rotate(45 50.8809 19.7007)" fill="white" stroke="#fe207c" stroke-width="2"/>
-<rect x="32.3269" y="36.2516" width="19.8255" height="19.8255" transform="rotate(45 32.3269 36.2516)" fill="#fe207c"/>
-<rect x="32.3269" y="0.865128" width="19.8255" height="19.8255" transform="rotate(45 32.3269 0.865128)" fill="#fe207c"/>
+<rect x="14.334" y="19.7007" width="17.8255" height="17.8255" transform="rotate(45 14.334 19.7007)" fill="#27A7DF" stroke="#27A7DF" stroke-width="2"/>
+<rect x="50.8809" y="19.7007" width="17.8255" height="17.8255" transform="rotate(45 50.8809 19.7007)" fill="white" stroke="#27A7DF" stroke-width="2"/>
+<rect x="32.3269" y="36.2516" width="19.8255" height="19.8255" transform="rotate(45 32.3269 36.2516)" fill="#27A7DF"/>
+<rect x="32.3269" y="0.865128" width="19.8255" height="19.8255" transform="rotate(45 32.3269 0.865128)" fill="#27A7DF"/>
 </svg>

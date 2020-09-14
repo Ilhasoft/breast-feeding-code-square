@@ -2,8 +2,8 @@
   <div class="content-navbar">
     <div class="columns has-text-centered-tablet m-1 m-l-0 m-r-0">
       <router-link
-        :to="{ name: 'internationalCode' }"
-        class="international-code column is-one-fifth p-1">
+        :to="{ name: 'what' }"
+        class="what column is-one-fifth p-1">
         <div class="content-box p-1">
           <div>
             <div class="content-inline-box p-1">
@@ -11,36 +11,7 @@
             </div>
           </div>
           <span class="subtitle">
-            {{ $t('international-code.title') }}
-          </span>
-        </div>
-      </router-link>
-      <router-link
-        :to="{ name: 'violation' }"
-        class="violation column is-one-fifth p-1">
-        <div class="content-box p-1">
-          <div>
-            <div class="content-inline-box p-1">
-              <img src="../assets/img/bms/group-2.svg" />
-            </div>
-          </div>
-          <span class="subtitle">
-            {{ $t('violation.title') }}
-          </span>
-        </div>
-      </router-link>
-      <router-link
-        :to="{ name: 'breastfeeding-in-covid19' }"
-        class="what column is-one-fifth p-1"
-      >
-        <div class="content-box p-1">
-          <div>
-            <div class="content-inline-box p-1">
-              <img src="../assets/img/bms/group-3.svg" />
-            </div>
-          </div>
-          <span class="subtitle">
-            {{ $t('features.title') }}
+            {{ $t('what.title') }}
           </span>
         </div>
       </router-link>
@@ -50,7 +21,7 @@
         <div class="content-box p-1">
           <div>
             <div class="content-inline-box p-1">
-              <img src="../assets/img/bms/group-4.svg" />
+              <img src="../assets/img/bms/group-2.svg" />
             </div>
           </div>
           <span class="subtitle">
@@ -59,8 +30,37 @@
         </div>
       </router-link>
       <router-link
-        :to="{ name: 'what' }"
-        class="what column is-one-fifth p-1">
+        :to="{ name: 'internationalCode' }"
+        class="international-code column is-one-fifth p-1">
+        <div class="content-box p-1">
+          <div>
+            <div class="content-inline-box p-1">
+              <img src="../assets/img/bms/group-3.svg" />
+            </div>
+          </div>
+          <span class="subtitle">
+            {{ $t('international-code.title') }}
+          </span>
+        </div>
+      </router-link>
+      <router-link
+        :to="{ name: 'breastfeeding-in-covid19' }"
+        class="breastfeeding-in-covid19 column is-one-fifth p-1"
+      >
+        <div class="content-box p-1">
+          <div>
+            <div class="content-inline-box p-1">
+              <img src="../assets/img/bms/group-4.svg" />
+            </div>
+          </div>
+          <span class="subtitle">
+            {{ $t('features.title') }}
+          </span>
+        </div>
+      </router-link>
+      <router-link
+        :to="{ name: 'violation' }"
+        class="violation column is-one-fifth p-1">
         <div class="content-box p-1">
           <div>
             <div class="content-inline-box p-1">
@@ -68,7 +68,7 @@
             </div>
           </div>
           <span class="subtitle">
-            {{ $t('international-code.title') }}
+            {{ $t('violation.title') }}
           </span>
         </div>
       </router-link>
@@ -161,8 +161,12 @@ $color: #36ade1;
   color: #53ec25;
 }
 
-.content-navbar .what .subtitle {
+.content-navbar .breastfeeding-in-covid19 .subtitle {
   color: #fe207c;
+}
+
+.content-navbar .what .subtitle {
+  color: #c6422f;
 }
 
 .content-navbar .tips .subtitle {
