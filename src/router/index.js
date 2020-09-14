@@ -31,7 +31,7 @@ export default new Router({
       path: '/index',
       name: 'index',
       component: Home,
-      redirect: { name: 'internationalCode' },
+      redirect: { name: 'what' },
       children: [
         {
           path: '/breastfeeding-in-covid19',

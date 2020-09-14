@@ -1,6 +1,6 @@
 <template>
   <div
-    class="about"
+    class="breastfeeding-in-covid19"
   >
     <text-section id="about"
                   class="home__section">
@@ -68,7 +68,7 @@ export default {
 </script>
 
 <style lang="scss">
-.about {
+.breastfeeding-in-covid19 {
   /deep/ .section__title {
     color: #fe207c;
   }
