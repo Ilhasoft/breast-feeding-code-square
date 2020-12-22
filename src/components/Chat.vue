@@ -81,7 +81,7 @@ export default {
       WebChat.default.init({
         selector: '#webchat',
         initPayload: this.initialPayload,
-        channelUuid: '35b69a81-c529-4c95-8ae5-bd3f512dfe1b',
+        channelUuid: 'a2d9b332-fd05-4939-928e-c60711e7efc6',
         host: 'https://rapidpro.ilhasoft.mobi',
         title: 'Baby Feeding Code Square',
         inputTextFieldHint: "Type a question...",
