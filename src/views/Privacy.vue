@@ -1,6 +1,7 @@
 <template>
   <div
     :class="['privacy', isOpen ? 'privacy__open' : '']"
+    class="bms-container"
   >
     <Chat
       :is-open.sync="isOpen"

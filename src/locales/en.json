@@ -3,9 +3,10 @@
         "home": "Home",
         "about": "About",
         "map": "Map Code Square",
-        "videos": "Learn More",
+        "videos": "Videos",
+        "support": "Support",
         "languages": "Languages",
-        "bot": "Chat"
+        "bot": "Report a Violation"
     },
 
     "hero": {
@@ -65,8 +66,12 @@
         }
     },
 
+    "support": {
+        "title": "Support"
+    },
+
     "videos": {
-        "title": "Learn More",
+        "title": "Videos",
         "video_1_title": "Breastfeeding master class | UNICEF",
         "video_1_url": "https://www.youtube.com/embed/mTm9zvz5-Dc",
         "video_2_title": "Unicef UK Baby Friendly Initiative | Helen Crawley: working within the Code",

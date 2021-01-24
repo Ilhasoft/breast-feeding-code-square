@@ -8,7 +8,7 @@
       </div>
     </div>
     <div v-if="isOpenVideos"
-         id="learn-more"
+         id="videos"
          class="home__section__wrapper content-video"
          aria-labelledby="carouselheading">
       <text-section class="home__section">
@@ -21,6 +21,7 @@
         />
       </text-section>
     </div>
+    <Support />
   </div>
 </template>
 
@@ -31,10 +32,12 @@ import TextSection from '../components/TextSection.vue';
 import InfoVideoList from '../components/InfoVideoList.vue';
 import ContentNavbar from '../components/ContentNavbar.vue';
 import { isMobile } from '../util/browser';
+import Support from './Support';
 
 export default {
   name: 'Home',
   components: {
+    Support,
     ContentNavbar,
     Hero,
     TextSection,
@@ -94,7 +97,7 @@ export default {
 
 .content-navbar, .content-home, .content-video {
   position: relative;
-  top: -70px;
+  top: -60px;
 }
 
 </style>

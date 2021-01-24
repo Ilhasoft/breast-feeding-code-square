@@ -6,7 +6,6 @@ import Violation from '../views/Violation';
 import Map from '../views/Map';
 import BreastfeedingInCovid19 from '../views/BreastfeedingInCovid19';
 import What from '../views/What';
-import Tips from '../views/Tips';
 import InternationalCode from '../views/InternationalCode';
 
 
@@ -42,11 +41,6 @@ export default new Router({
           path: '/what-is-bfcs',
           name: 'what',
           component: What,
-        },
-        {
-          path: '/tips',
-          name: 'tips',
-          component: Tips,
         },
         {
           path: '/what-is-violation',

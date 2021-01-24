@@ -35,7 +35,7 @@ export default {
 
 .violation {
   /deep/ .section__title {
-    color: #53ec25;
+    color: #f9a028;
   }
   ul {
     padding-left: 1.2em;

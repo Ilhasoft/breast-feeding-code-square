@@ -34,7 +34,7 @@ export default {
 <style lang="scss">
 .international-code {
   /deep/ .section__title {
-    color: #36ade1;
+    color: #53ec25;
   }
   ul {
     padding-left: 1.2em;

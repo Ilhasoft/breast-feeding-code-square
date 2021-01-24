@@ -12,17 +12,23 @@
                src="@/assets/img/bms/unicef.svg"
                alt="UNICEF logo">
         </div>
+
+        <div class="column is-6 center-img has-text-left-tablet p-l-1">
+          <img class="banner__img-eca"
+               src="@/assets/img/bms/eca.svg"
+               alt="UNICEF logo">
+        </div>
       </div>
-      <router-link
-        to="#webchat"
-        class="banner__btn content-inline-box">
-        <img class="banner__img-eca p-0"
-             src="@/assets/img/bms/group-5.svg"
-             alt="UNICEF logo">
-        <span class="p-0">
-          {{ $t('hero.button') }}
-        </span>
-      </router-link>
+<!--      <router-link-->
+<!--        to="#webchat"-->
+<!--        class="banner__btn content-inline-box">-->
+<!--        <img class="banner__img-eca p-0"-->
+<!--             src="@/assets/img/bms/group-5.svg"-->
+<!--             alt="UNICEF logo">-->
+<!--        <span class="p-0">-->
+<!--          {{ $t('hero.button') }}-->
+<!--        </span>-->
+<!--      </router-link>-->
     </div>
   </div>
 </template>

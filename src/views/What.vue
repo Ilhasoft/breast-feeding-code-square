@@ -33,7 +33,7 @@ export default {
 <style lang="scss">
 .what {
   /deep/ .section__title {
-    color: #c6422f;
+    color: #36ade1;
   }
 }
 </style>
