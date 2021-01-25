@@ -3,7 +3,7 @@
     <div class="columns has-text-centered-tablet m-1 m-l-0 m-r-0">
       <router-link
         :to="{ name: 'what' }"
-        class="what column is-one-fifth p-1">
+        class="what column is-one-quarter p-1">
         <div class="content-box p-1">
           <div>
             <div class="content-inline-box p-1">
@@ -15,27 +15,27 @@
           </span>
         </div>
       </router-link>
+<!--      <router-link-->
+<!--        :to="{ name: 'tips' }"-->
+<!--        class="tips column is-one-quarter p-1">-->
+<!--        <div class="content-box p-1">-->
+<!--          <div>-->
+<!--            <div class="content-inline-box p-1">-->
+<!--              <img src="../assets/img/bms/group-2.svg" />-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <span class="subtitle">-->
+<!--            {{ $t('tips.title') }}-->
+<!--          </span>-->
+<!--        </div>-->
+<!--      </router-link>-->
       <router-link
-        :to="{ name: 'tips' }"
-        class="tips column is-one-fifth p-1">
+        :to="{ name: 'internationalCode' }"
+        class="international-code column is-one-quarter p-1">
         <div class="content-box p-1">
           <div>
             <div class="content-inline-box p-1">
               <img src="../assets/img/bms/group-2.svg" />
-            </div>
-          </div>
-          <span class="subtitle">
-            {{ $t('tips.title') }}
-          </span>
-        </div>
-      </router-link>
-      <router-link
-        :to="{ name: 'internationalCode' }"
-        class="international-code column is-one-fifth p-1">
-        <div class="content-box p-1">
-          <div>
-            <div class="content-inline-box p-1">
-              <img src="../assets/img/bms/group-3.svg" />
             </div>
           </div>
           <span class="subtitle">
@@ -45,12 +45,12 @@
       </router-link>
       <router-link
         :to="{ name: 'breastfeeding-in-covid19' }"
-        class="breastfeeding-in-covid19 column is-one-fifth p-1"
+        class="breastfeeding-in-covid19 column is-one-quarter p-1"
       >
         <div class="content-box p-1">
           <div>
             <div class="content-inline-box p-1">
-              <img src="../assets/img/bms/group-4.svg" />
+              <img src="../assets/img/bms/group-3.svg" />
             </div>
           </div>
           <span class="subtitle">
@@ -60,11 +60,11 @@
       </router-link>
       <router-link
         :to="{ name: 'violation' }"
-        class="violation column is-one-fifth p-1">
+        class="violation column is-one-quarter p-1">
         <div class="content-box p-1">
           <div>
             <div class="content-inline-box p-1">
-              <img src="../assets/img/bms/group-6.svg" />
+              <img src="../assets/img/bms/group-4.svg" />
             </div>
           </div>
           <span class="subtitle">
@@ -104,22 +104,22 @@ $color: #36ade1;
       }
     }
     &.international-code .content-box {
-      background-color:  $color;
-    }
-    &.violation .content-box {
       background-color:  #53ec25;
     }
-
-    &.breastfeeding-in-covid19 .content-box {
-      background-color:  #fe207c;
-    }
-
-    &.tips .content-box {
+    &.violation .content-box {
       background-color:  #f9a028;
     }
 
-    &.what .content-box {
+    &.breastfeeding-in-covid19 .content-box {
       background-color:  #c6422f;
+    }
+    //
+    //&.tips .content-box {
+    //  background-color:  #f9a028;
+    //}
+
+    &.what .content-box {
+      background-color:  #36ade1;
     }
   }
 
@@ -143,33 +143,33 @@ $color: #36ade1;
   @media (min-width: 769px) {
     .content-inline-box {
       position: relative;
-      top: -70px;
+      top: -60px;
     }
     .subtitle {
       position: relative;
-      top: -30px;
+      top: -20px;
     }
   }
 
 }
 
 .content-navbar .international-code .subtitle {
-  color: $color;
-}
-
-.content-navbar .violation .subtitle {
   color: #53ec25;
 }
 
-.content-navbar .breastfeeding-in-covid19 .subtitle {
-  color: #fe207c;
+.content-navbar .violation .subtitle {
+  color: #f9a028;
 }
 
-.content-navbar .what .subtitle {
+.content-navbar .breastfeeding-in-covid19 .subtitle {
   color: #c6422f;
 }
 
-.content-navbar .tips .subtitle {
-  color: #f9a028;
+.content-navbar .what .subtitle {
+  color: #36ade1;
 }
+
+//.content-navbar .tips .subtitle {
+//  color: #f9a028;
+//}
 </style>

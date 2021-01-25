@@ -3,6 +3,46 @@
     <div class="footer__wrapper">
       <div class="footer__info">
         {{ $t('extraInfo.text') }}
+
+        <div class="bms-container">
+          <div class="columns has-text-centered-tablet">
+            <div class="column has-text-left-tablet has-text-centered">
+              <div class="m-t-1">
+                <img src="../assets/img/icons/local.svg" />
+                {{ $t('footer.location') }}
+              </div>
+              <div class="m-t-1">
+                <img src="../assets/img/icons/phone.svg" />
+                {{ $t('footer.phoneNumber') }}
+              </div>
+              <div class="m-t-1">
+                <img src="../assets/img/icons/mail.svg" />
+                {{ $t('footer.email') }}
+              </div>
+            </div>
+
+            <div class="column has-text-right-tablet has-text-centered">
+              <div class="m-t-1 has-text-weight-bold">{{ $t('footer.about') }}</div>
+              <div class="m-t-1">
+                <div style="max-width: 300px; margin-left: auto">
+                  <router-link to="">{{ $t('footer.unicef') }}</router-link>
+                </div>
+              </div>
+              <div class="">
+                <img class="m-1" src="../assets/img/icons/fb.svg" />
+                <img class="m-1" src="../assets/img/icons/twitter.svg" />
+                <img class="m-1" src="../assets/img/icons/instagram.svg" />
+              </div>
+              <div>
+                {{ $t('footer.contactUs') }}
+                |
+                <router-link :to="'privacy'" :title="$t('footer.privacyPolicy')">
+                  {{ $t('footer.privacyPolicy') }}
+                </router-link>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div v-if="false" class="footer__info-images">
         <a href="https://www.unicef.org/eca/" title="UNICEF ECARO">
@@ -13,12 +53,7 @@
         </a>
       </div>
       <div class="footer__links">
-        <div>
-          <router-link :to="'privacy'" :title="$t('footer.policy')">
-            {{ $t('footer.policy') }}
-          </router-link>
-        </div>
-        <div>
+        <div class="bms-container">
           <a href="https://bothub.it/" :title="$t('footer.bothub')">
             {{ $t('footer.bothub') }}
           </a>
@@ -57,19 +92,32 @@ $img-height: 9vh;
   padding: 0;
 
   &__links {
-    margin: 1.5vh;
+    background-color: #f1f1f2;
+    margin-bottom: 5.5vh;
     flex-wrap: wrap;
     column-gap: 1rem;
     justify-content: flex-start;
   }
 
-  &__info-images, &__info {
+  &__info-images {
     background-color: #047afb;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+  }
+
+  &__info {
+    background-color: #047afb;
+
+    color: white;
+    a {
+      color: white !important;
+      text-decoration: underline;
+    }
+    //padding: 1vh 5vh;
+    //text-align: center;
   }
 
   &__info-images {
@@ -88,19 +136,13 @@ $img-height: 9vh;
     }
   }
 
-  &__info {
-    color: white;
-    padding: 1vh 5vh;
-    text-align: center;
-  }
-
-  &__wrapper {
-    margin: 0 auto;
-    width: 100%;
-    display: flex;
-    column-gap: 50px;
-    flex-wrap: wrap;
-  }
+  //&__wrapper {
+  //  margin: 0 auto;
+  //  width: 100%;
+  //  display: flex;
+  //  column-gap: 50px;
+  //  flex-wrap: wrap;
+  //}
 
   a {
     color: #2089fb;

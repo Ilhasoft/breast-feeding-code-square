@@ -4,6 +4,7 @@
               :nav="true"
               :mouseDrag="false"
               :touchDrag="false"
+              :navText="['prev', 'next']"
               class="carousel">
       <InfoVideoItem v-for="(video, index) in videos"
                      :key="index"

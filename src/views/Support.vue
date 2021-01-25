@@ -1,12 +1,17 @@
 <template>
   <div
-    class="how"
+    id="support"
+    class="support bms-container"
   >
-    <text-section id="how"
-                  class="home__section">
+    <text-section class="home__section">
       <h2 slot="title">
-        {{ $t('tips.title') }}
-      </h2>
+      {{ $t('support.title') }}
+    </h2>
+    </text-section>
+    <text-section class="home__section">
+      <div slot="text">
+        <strong>{{ $t('tips.title') }}</strong>
+      </div>
       <div slot="text">
         <p>
           {{ $t('tips.tip_1') }}
@@ -36,7 +41,7 @@
 import TextSection from '../components/TextSection';
 
 export default {
-  name: 'how',
+  name: 'Support',
   components: {
       TextSection,
   },
@@ -44,9 +49,9 @@ export default {
 </script>
 
 <style lang="scss">
-.how {
-  /deep/ .section__title {
-    color: #f9a028;
+.support {
+  .home__section {
+    padding-top: 0;
   }
 }
 </style>

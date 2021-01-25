@@ -84,9 +84,14 @@ export default {
             to: { name: 'map' },
           },
           {
-            id: "learn-more",
+            id: "videos",
             title: this.$t('navbar.videos'),
-            to: `index#learn-more`,
+            to: `index#videos`,
+          },
+          {
+            id: "support",
+            title: this.$t('navbar.support'),
+            to: `index#support`,
           },
         ];
       },

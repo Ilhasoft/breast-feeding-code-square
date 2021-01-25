@@ -3,9 +3,10 @@
         "home": "Home",
         "about": "About",
         "map": "Map Code Square",
-        "videos": "Learn More",
+        "videos": "Videos",
+        "support": "Support",
         "languages": "Languages",
-        "bot": "Chat"
+        "bot": "Report a Violation"
     },
 
     "hero": {
@@ -65,8 +66,12 @@
         }
     },
 
+    "support": {
+        "title": "Support"
+    },
+
     "videos": {
-        "title": "Learn More",
+        "title": "Videos",
         "video_1_title": "Breastfeeding master class | UNICEF",
         "video_1_url": "https://www.youtube.com/embed/mTm9zvz5-Dc",
         "video_2_title": "Unicef UK Baby Friendly Initiative | Helen Crawley: working within the Code",
@@ -78,9 +83,16 @@
     },
 
     "footer": {
+        "location": "",
+        "phoneNumber": "",
+        "email": "",
+        "about": "About the company",
+        "unicef": "Unicef Acessiblie Textbooks for All Unicef Acessiblie Textbooks for All Resources",
+        "contactUs": "Contact us",
+        "privacyPolicy": "Privacy policy",
         "eca": "DECADE OF ACTION ON INFANT AND YOUNG CHILD FEEDING IN <span style=\"color: #f9a028\">ECA</span>",
         "policy": "Click here to see our privacy policy",
-        "bothub": "Baby Feeding Codifier is powered by Bothub and RapidPro © 2020 All rights reserved."
+        "bothub": "Powered by RapidPro © 2020 All rights reserved."
     },
 
     "violation": {

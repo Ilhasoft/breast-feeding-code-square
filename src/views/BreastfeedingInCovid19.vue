@@ -70,7 +70,7 @@ export default {
 <style lang="scss">
 .breastfeeding-in-covid19 {
   /deep/ .section__title {
-    color: #fe207c;
+    color: #c6422f;
   }
 }
 </style>
