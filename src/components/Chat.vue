@@ -146,23 +146,41 @@ body.mobile #webchat .widget-container.chat-open {
   -webkit-box-shadow: 1px 1px 5px 1px rgba(28, 171, 226, 1);
   -moz-box-shadow: 1px 1px 5px 1px rgba(28, 171, 226, 1);
   box-shadow: 1px 1px 5px 1px rgba(28, 171, 226, 1);
-  height: 8vh;
-  width: 8vh;
-}
+  height: 6vh;
+  width: 23vh;
+  justify-content: flex-end;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
 
+  .open-launcher__container {
+    height: 6vh;
+    width: 6vh;
+    margin-left: 20px;
+    position: relative;
+    &:before {
+      content: 'Report a violation';
+      position: absolute;
+      left: -132px;
+      top: 17px;
+      font-size: 16px;
+    }
+  }
+}
+//
 .launcher:after {
   content: '';
-  width: 8vh;
-  height: 8vh;
+  height: 6vh;
+  width: 23vh;
   border: 4px solid #2089fb;
-  border-radius: 50%;
+  border-radius: 30px;
   position: absolute;
   animation: pulsate infinite 1.4s;
 }
 
 @-webkit-keyframes pulsate {
   0% {
-    -webkit-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.0, 1.0);
     opacity: 1;
   }
   100% {
@@ -255,16 +273,16 @@ body.mobile #webchat .widget-container.chat-open {
 }
 
 
-#webchat .widget-container:not(.chat-open):after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: -1vh;
-  left: -2vh;
-  height: 5vh;
-  width: 5vh;
-  background-image: url(../assets/img/tooltip-chat.svg);
-  background-repeat: no-repeat;
-}
+//#webchat .widget-container:not(.chat-open):after {
+  //content: 'Report a violation';
+  //display: block;
+  //position: absolute;
+  //top: -1vh;
+  //left: -2vh;
+  //height: 5vh;
+  //width: 5vh;
+  //background-image: url(../assets/img/tooltip-chat.svg);
+  //background-repeat: no-repeat;
+//}
 
 </style>

@@ -83,9 +83,16 @@
     },
 
     "footer": {
+        "location": "",
+        "phoneNumber": "",
+        "email": "",
+        "about": "About the company",
+        "unicef": "Unicef Acessiblie Textbooks for All Unicef Acessiblie Textbooks for All Resources",
+        "contactUs": "Contact us",
+        "privacyPolicy": "Privacy policy",
         "eca": "DECADE OF ACTION ON INFANT AND YOUNG CHILD FEEDING IN <span style=\"color: #f9a028\">ECA</span>",
         "policy": "Click here to see our privacy policy",
-        "bothub": "Baby Feeding Codifier is powered by Bothub and RapidPro © 2020 All rights reserved."
+        "bothub": "Powered by RapidPro © 2020 All rights reserved."
     },
 
     "violation": {
