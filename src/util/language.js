@@ -4,5 +4,10 @@ export const validLanguages = [
     name: 'English',
     browserCode: 'en',
   },
+  {
+    id: 'ru',
+    name: 'Pусский',
+    browserCode: 'ru',
+  },
 ];
 
