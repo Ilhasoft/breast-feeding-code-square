@@ -8,16 +8,22 @@
           <div class="columns has-text-centered-tablet">
             <div class="column has-text-left-tablet has-text-centered">
               <div class="m-t-1">
-                <img src="../assets/img/icons/local.svg" />
-                {{ $t('footer.location') }}
+<!--                <img src="../assets/img/icons/local.svg" />-->
+                <a :href="$t('footer.unicefHomeHref')" target="_blank">
+                  {{ $t('footer.unicefHome') }}
+                </a>
               </div>
-              <div class="m-t-1">
-                <img src="../assets/img/icons/phone.svg" />
-                {{ $t('footer.phoneNumber') }}
+              <div class="">
+<!--                <img src="../assets/img/icons/phone.svg" />-->
+                - <a :href="$t('footer.unicefWhatWeDoHref')" target="_blank">
+                  {{ $t('footer.unicefWhatWeDo') }}
+                </a>
               </div>
-              <div class="m-t-1">
-                <img src="../assets/img/icons/mail.svg" />
-                {{ $t('footer.email') }}
+              <div class="">
+<!--                <img src="../assets/img/icons/mail.svg" />-->
+                - <a :href="$t('footer.unicefWhereWeWorkHref')" target="_blank">
+                  {{ $t('footer.unicefWhereWeWork') }}
+                </a>
               </div>
             </div>
 
@@ -29,12 +35,20 @@
                 </div>
               </div>
               <div class="">
-                <img class="m-1" src="../assets/img/icons/fb.svg" />
-                <img class="m-1" src="../assets/img/icons/twitter.svg" />
-                <img class="m-1" src="../assets/img/icons/instagram.svg" />
+                <a href="https://www.facebook.com/unicefeca" target="_blank">
+                  <img class="m-1" src="../assets/img/icons/fb.svg" />
+                </a>
+                <a href="https://twitter.com/unicef_eca" target="_blank">
+                  <img class="m-1" src="../assets/img/icons/twitter.svg" />
+                </a>
+                <a href="https://www.youtube.com/user/unicefceecis2009" target="_blank">
+                  <img class="m-1" src="../assets/img/icons/youtube.svg" />
+                </a>
               </div>
               <div>
-                {{ $t('footer.contactUs') }}
+                <a href=" https://www.unicef.org/eca/contact-us" target="_blank">
+                  {{ $t('footer.contactUs') }}
+                </a>
                 |
                 <router-link :to="'privacy'" :title="$t('footer.privacyPolicy')">
                   {{ $t('footer.privacyPolicy') }}
