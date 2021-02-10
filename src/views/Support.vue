@@ -3,12 +3,10 @@
     id="support"
     class="support bms-container"
   >
-    <text-section class="home__section">
+    <text-section>
       <h2 slot="title">
-      {{ $t('support.title') }}
-    </h2>
-    </text-section>
-    <text-section class="home__section">
+        {{ $t('support.title') }}
+      </h2>
       <div slot="text">
         <strong>{{ $t('tips.title') }}</strong>
       </div>

@@ -7,6 +7,7 @@ import Map from '../views/Map';
 import BreastfeedingInCovid19 from '../views/BreastfeedingInCovid19';
 import What from '../views/What';
 import InternationalCode from '../views/InternationalCode';
+import Support from '../views/Support';
 
 
 Vue.use(Router);
@@ -63,6 +64,11 @@ export default new Router({
       path: '/map',
       name: 'map',
       component: Map,
+    },
+    {
+      path: '/support',
+      name: 'support',
+      component: Support,
     },
     {
       path: '**',
