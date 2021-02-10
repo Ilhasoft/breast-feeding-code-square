@@ -21,7 +21,6 @@
         />
       </text-section>
     </div>
-    <Support />
   </div>
 </template>
 
@@ -32,12 +31,10 @@ import TextSection from '../components/TextSection.vue';
 import InfoVideoList from '../components/InfoVideoList.vue';
 import ContentNavbar from '../components/ContentNavbar.vue';
 import { isMobile } from '../util/browser';
-import Support from './Support';
 
 export default {
   name: 'Home',
   components: {
-    Support,
     ContentNavbar,
     Hero,
     TextSection,

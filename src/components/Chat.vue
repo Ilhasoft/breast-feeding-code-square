@@ -136,142 +136,145 @@ body.mobile #webchat .widget-container.chat-open {
 
 }
 
-#webchat .conversation-container .title.with-avatar {
-  color: white;
-  font-size: 0.95em;
-  font-family: 'Poppins', sans-serif;
-}
+#webchat {
+  .conversation-container .title.with-avatar {
+    color: white;
+    font-size: 0.95em;
+    font-family: 'Poppins', sans-serif;
+  }
 
-.launcher {
-  -webkit-box-shadow: 1px 1px 5px 1px rgba(28, 171, 226, 1);
-  -moz-box-shadow: 1px 1px 5px 1px rgba(28, 171, 226, 1);
-  box-shadow: 1px 1px 5px 1px rgba(28, 171, 226, 1);
-  height: 6vh;
-  width: 23vh;
-  justify-content: flex-end;
-  border-radius: 30px;
-  color: white;
-  font-weight: bold;
-
-  .open-launcher__container {
+  .launcher {
+    -webkit-box-shadow: 1px 1px 5px 1px rgba(28, 171, 226, 1);
+    -moz-box-shadow: 1px 1px 5px 1px rgba(28, 171, 226, 1);
+    box-shadow: 1px 1px 5px 1px rgba(28, 171, 226, 1);
     height: 6vh;
-    width: 6vh;
-    margin-left: 20px;
-    position: relative;
-    &:before {
-      content: 'Report a violation';
-      position: absolute;
-      left: -132px;
-      top: 17px;
-      font-size: 16px;
+    width: 23vh;
+    justify-content: flex-end;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+
+    .open-launcher__container {
+      height: 6vh;
+      width: 6vh;
+      margin-left: 20px;
+      position: relative;
+      &:before {
+        content: 'Report a violation';
+        position: absolute;
+        left: -132px;
+        top: 17px;
+        font-size: 16px;
+      }
     }
   }
-}
-//
-.launcher:after {
-  content: '';
-  height: 6vh;
-  width: 23vh;
-  border: 4px solid #2089fb;
-  border-radius: 30px;
-  position: absolute;
-  animation: pulsate infinite 1.4s;
-}
 
-@-webkit-keyframes pulsate {
-  0% {
-    -webkit-transform: scale(1.0, 1.0);
-    opacity: 1;
+
+  .launcher:after {
+    content: '';
+    height: 6vh;
+    width: 23vh;
+    border: 4px solid #2089fb;
+    border-radius: 30px;
+    position: absolute;
+    animation: pulsate infinite 1.4s;
   }
-  100% {
-    -webkit-transform: scale(1.2, 1.2);
-    opacity: 0;
+
+  @-webkit-keyframes pulsate {
+    0% {
+      -webkit-transform: scale(1.0, 1.0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1.2, 1.2);
+      opacity: 0;
+    }
+  }
+
+  .conversation-container .close-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    display: inline-block;
+    background-color: #2089fb;
+    border: 0;
+    width: 40px;
+    cursor: pointer;
+  }
+
+  .hide-sm {
+    display: none;
+  }
+
+  .close-button:focus, .close-button:active, .close-button:hover {
+    outline: none;
+  }
+
+  .close-button::-moz-focus-inner {
+    border: 0;
+  }
+
+  .conversation-container .close {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+  }
+
+  @media (min-height: 500px) {
+    .messages-container {
+      min-height: 62vh;
+    }
+  }
+
+  @media (min-height: 610px) {
+    .messages-container {
+      min-height: 70vh;
+    }
+  }
+
+  @media (min-height: 735px) {
+    .messages-container {
+      min-height: 75vh;
+    }
+  }
+
+  .quickReplies-container {
+    max-width: 100%;
+  }
+
+
+  .replies {
+    align-items: stretch;
+    padding: 0 0 0 0;
+    overflow: auto;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .new-message {
+    font-weight: bolder;
+  }
+
+  .send-icon {
+    filter: brightness(50%);
+  }
+
+  .replies {
+    justify-content: center;
+  }
+
+  .conversation-container .reply {
+    width: 55%;
+    min-width: 280px;
+    justify-content: center;
+  }
+
+  .avatar {
+    min-width: 17px;
   }
 }
-
-#webchat .conversation-container .close-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  display: inline-block;
-  background-color: #2089fb;
-  border: 0;
-  width: 40px;
-  cursor: pointer;
-}
-
-.close-button:focus, .close-button:active, .close-button:hover {
-  outline: none;
-}
-
-.close-button::-moz-focus-inner {
-  border: 0;
-}
-
-.conversation-container .close {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-}
-
-@media (min-height: 500px) {
-  .messages-container {
-    min-height: 62vh;
-  }
-}
-
-@media (min-height: 610px) {
-  .messages-container {
-    min-height: 70vh;
-  }
-}
-
-@media (min-height: 735px) {
-  .messages-container {
-    min-height: 75vh;
-  }
-}
-
-#webchat .hide-sm {
-  display: none;
-}
-
-.quickReplies-container {
-  max-width: 100%;
-}
-
-.replies {
-  align-items: stretch;
-  padding: 0 0 0 0;
-  overflow: auto;
-  max-width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.new-message {
-  font-weight: bolder;
-}
-
-.send-icon {
-  filter: brightness(50%);
-}
-
-#webchat .replies {
-  justify-content: center;
-}
-
-#webchat .conversation-container .reply {
-  width: 55%;
-  min-width: 280px;
-  justify-content: center;
-}
-
-.avatar {
-  min-width: 17px;
-}
-
 
 //#webchat .widget-container:not(.chat-open):after {
   //content: 'Report a violation';

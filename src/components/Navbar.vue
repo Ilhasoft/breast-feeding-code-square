@@ -91,7 +91,7 @@ export default {
           {
             id: "support",
             title: this.$t('navbar.support'),
-            to: `index#support`,
+            to: `support#support`,
           },
         ];
       },
