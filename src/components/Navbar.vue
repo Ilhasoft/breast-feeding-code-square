@@ -7,7 +7,7 @@
         <a href="/"
            title="Baby Feeding Code Square">
           <img class="navbar-item navbar__logo"
-               src="@/assets/img/bms/bms-chat-logo.svg"
+               src="@/assets/img/bms/brastfeeding-logo.png"
                alt="Baby Feeding Code Square logo">
         </a>
 
