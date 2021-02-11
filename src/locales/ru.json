@@ -59,10 +59,10 @@
             "emphasis_2": "2.",
             "emphasis_3": "3.",
             "emphasis_4": "4.",
-            "text_1": "Select your language from the language dropdown menu at the top of this web page.",
-            "text_2": "Select from the list of common questions to get quick answers and submit your questions if you wish to learn more about exclusive breastfeeding and or the national and international code of marketing of baby formulas.",
-            "text_3": "Submit your questions if you wish to learn more about exclusive breastfeeding and or the national and international code of marketing of BMS.",
-            "text_4": "Report your experiences of the Code being violated in your city, From the comfort of your home by detailing your experience, enforce the implementation of the international code for marketing Breast-Milk Substitutes or baby formulas."
+            "text_1": "Выберите свой язык из выпадающего меню в верхней части этой веб-страницы.",
+            "text_2": "Выберите из списка часто задаваемых вопросов, чтобы получить на них быстрые ответы, и отправьте свои вопросы, если Вы хотите узнать больше об эксклюзивном грудном вскармливании или о национальном и международном кодексе маркетинга детских формул.",
+            "text_3": "Представьте свои вопросы, если Вы хотите узнать больше об эксклюзивном грудном вскармливании или национальном и международном кодексе маркетинга BMS.",
+            "text_4": " Сообщить о случае нарушения Кодекса в вашем городе можно не выходя из дома, подробно описав его на сайте, чем вы вложите вклад в соблюдение международного кодекса маркетинга заменителей грудного молока ."
         }
     },
 
@@ -83,19 +83,19 @@
     },
 
     "footer": {
-        "unicefHome": "UNICEF Home",
+        "unicefHome": "Дом Юнисеф",
         "unicefHomeHref": "https://www.unicef.org/eca/",
-        "unicefWhatWeDo": "What we do",
+        "unicefWhatWeDo": "Что мы делаем",
         "unicefWhatWeDoHref": "https://www.unicef.org/eca/what-we-do",
-        "unicefWhereWeWork": "Where we work",
+        "unicefWhereWeWork": "Где мы работаем",
         "unicefWhereWeWorkHref": "https://www.unicef.org/eca/what-we-do",
         "about": "About the company",
         "unicef": "Unicef Acessiblie Textbooks for All Unicef Acessiblie Textbooks for All Resources",
-        "contactUs": "Contact us",
-        "privacyPolicy": "Privacy policy",
-        "eca": "DECADE OF ACTION ON INFANT AND YOUNG CHILD FEEDING IN <span style=\"color: #f9a028\">ECA</span>",
+        "contactUs": "Свяжитесь с нами",
+        "privacyPolicy": "Политика конфиденциальности",
+        "eca": "Декада действий в области питания младенцев и детей младшего возраста в ЕАС <span style=\"color: #f9a028\">Европейской академии соответсвия</span>",
         "policy": "Click here to see our privacy policy",
-        "bothub": "Powered by RapidPro © 2020 All rights reserved."
+        "bothub": "Работа кодификатора детского питания поддерживается от Bothub и RapidPro.  © 2020 Все права защищены"
     },
 
     "violation": {
@@ -119,7 +119,7 @@
     "policy": {
         "title": "Политика конфиденциальности",
         "section_1_title": "Какую информацию мы собираем?",
-        "section_1_text": "We collect information from you when you want to report any    adherence and or violations of the International Code of Marketing of Breast-Milk Substitutes. Such information may include impersonal information about your use of the website. We do not capture any personal information about you when you access this website or the chatbot.",
+        "section_1_text": "Мы собираем информацию, которую вы хотите сообщить о любом соблюдении или нарушении Международного кодекса маркетинга заменителей грудного молока. Она может включать в себя анонимную информацию о вашем использовании сайта. Мы не собираем никакой личной информации о вас, когда вы заходите на этот сайт или в чат-бот.",
         "section_2_title": "Как мы защищаем вашу информацию?",
         "section_2_text": "Мы принимаем разнообразные меры для обеспечения безопасности вашей личной информации, когда вы заходите на сайт, отправляете личную информацию или получаете к ней доступ. Мы предлагаем и используем безопасный сервер. Вся предоставляемая информация передается с использованием технологии Secure Socket Layer (SSL).",
         "section_3_title": "Используем ли мы cookie-файлы?",
@@ -132,6 +132,6 @@
         "section_6_text": "Иногда, по своему усмотрению, мы можем включать или предлагать продукты или услуги третьих сторон на нашем веб-сайте. У сайтов указанных третьих сторон имеется отдельная и независимая политика конфиденциальности. По этой причине мы не несем никакой ответственности за содержание и деятельность подобных связанных с нами сайтов. Тем не менее, мы стремимся защитить целостность нашего сайта и приветствуем любые отзывы об указанных сайтах.",
         "section_7_title": "Ваше согласие",
         "section_7_text": "Используя наш сайт, вы соглашаетесь с нашей политикой конфиденциальности в режиме онлайн.",
-        "updated": "This privacy policy was last updated on 23 March 2020."
+        "updated": "Последний раз данная политика конфиденциальности обновлялась 23 марта 2020 года."
     }
 }
