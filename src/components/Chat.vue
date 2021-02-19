@@ -147,23 +147,23 @@ body.mobile #webchat .widget-container.chat-open {
     -webkit-box-shadow: 1px 1px 5px 1px rgba(28, 171, 226, 1);
     -moz-box-shadow: 1px 1px 5px 1px rgba(28, 171, 226, 1);
     box-shadow: 1px 1px 5px 1px rgba(28, 171, 226, 1);
-    height: 6vh;
-    width: 23vh;
+    height: 60px;
+    width: 230px;
     justify-content: flex-end;
     border-radius: 30px;
     color: white;
     font-weight: bold;
 
     .open-launcher__container {
-      height: 6vh;
-      width: 6vh;
+      height: 60px;
+      width: 60px;
       margin-left: 20px;
       position: relative;
       &:before {
         content: 'Report a violation';
         position: absolute;
         left: -132px;
-        top: 17px;
+        top: 19px;
         font-size: 16px;
       }
     }
@@ -172,8 +172,8 @@ body.mobile #webchat .widget-container.chat-open {
 
   .launcher:after {
     content: '';
-    height: 6vh;
-    width: 23vh;
+    height: 60px;
+    width: 230px;
     border: 4px solid #2089fb;
     border-radius: 30px;
     position: absolute;
