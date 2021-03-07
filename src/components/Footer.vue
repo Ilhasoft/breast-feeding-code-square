@@ -29,11 +29,6 @@
 
             <div class="column has-text-right-tablet has-text-centered">
               <div class="m-t-1 has-text-weight-bold">{{ $t('footer.about') }}</div>
-              <div class="m-t-1">
-                <div style="max-width: 300px; margin-left: auto">
-                  <router-link to="">{{ $t('footer.unicef') }}</router-link>
-                </div>
-              </div>
               <div class="">
                 <a href="https://www.facebook.com/unicefeca" target="_blank">
                   <img class="m-1" src="../assets/img/icons/fb.svg" />
@@ -103,6 +98,7 @@ $img-height: 9vh;
   color: #47536e;
   font-size: 1em;
   background: white;
+  font-family: "Open Sans", sans-serif;
   padding: 0;
 
   &__links {
