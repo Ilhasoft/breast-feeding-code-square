@@ -162,7 +162,8 @@ body.mobile #webchat .widget-container.chat-open {
       &:before {
         content: 'Report a violation';
         position: absolute;
-        left: -132px;
+        width: 145px;
+        right: 65px;
         top: 19px;
         font-size: 16px;
       }
