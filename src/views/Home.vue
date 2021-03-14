@@ -48,16 +48,15 @@ export default {
   },
   methods: {
     initVideos() {
-      this.videos = [
-        {
-          url: this.$t('videos.video_1_url'),
-          title: this.$t('videos.video_1_title'),
-        },
-        {
-          url: this.$t('videos.video_2_url'),
-          title: this.$t('videos.video_2_title'),
-        },
-      ];
+      this.videos = [];
+      for (let i = 1; i <= 8; i++) {
+        this.videos.push(
+          {
+            url: this.$t(`videos.video_${i}_url`),
+            title: this.$t(`videos.video_${i}_title`),
+          },
+        )
+      }
     },
     resetVideos() {
       this.isOpenVideos = false;
