@@ -72,10 +72,22 @@
 
     "videos": {
         "title": "Videos",
-        "video_1_title": "Breastfeeding master class | UNICEF",
-        "video_1_url": "https://www.youtube.com/embed/mTm9zvz5-Dc",
-        "video_2_title": "Unicef UK Baby Friendly Initiative | Helen Crawley: working within the Code",
-        "video_2_url": "https://www.youtube.com/embed/9wRHoI1cMFM"
+        "video_1_title": "Unicef UK Baby Friendly Initiative | Helen Crawley: working within the Code",
+        "video_1_url": "https://www.youtube.com/embed/9wRHoI1cMFM",
+        "video_2_title": "Breastfeeding master class",
+        "video_2_url": "https://www.youtube.com/embed/mTm9zvz5-Dc",
+        "video_3_title": "Maximizing Breastfeeding",
+        "video_3_url": "https://www.youtube.com/embed/i0tqQfTpVDc",
+        "video_4_title": "What coronavirus means for breastfeeding",
+        "video_4_url": "https://www.youtube.com/embed/dewKMOYGnzQ",
+        "video_5_title": "Where Can I Breast Feed",
+        "video_5_url": "https://www.youtube.com/embed/mfYrF8JCblw",
+        "video_6_title": "Breastfeeding. It's natural",
+        "video_6_url": "https://www.youtube.com/embed/2R5_Wdz9zgc",
+        "video_7_title": "Breastfeeding and Relationship Building during first days after birth",
+        "video_7_url": "https://www.youtube.com/embed/BR2QZ4WsE10",
+        "video_8_title": "Positioning and attachment",
+        "video_8_url": "https://www.youtube.com/embed/3nbTEG1fOrE"
     },
 
     "extraInfo": {
