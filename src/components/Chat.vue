@@ -46,7 +46,7 @@ export default {
     },
     $route (to){
       if (to.hash.indexOf('webchat') !== -1 && !WebChat.isOpen()) {
-        WebChat.open()
+        WebChat.open();
       }
     },
   },
@@ -55,7 +55,7 @@ export default {
       WebChat.send(this.initialPayload);
     },
     openChat() {
-      if (!isMobile() || this.$router.currentRoute.hash.indexOf('webchat') !== -1) {
+      if (this.$router.currentRoute.hash.indexOf('webchat') !== -1) {
         setTimeout(
           () => {
             WebChat.open();
@@ -90,7 +90,7 @@ export default {
         disableTooltips: true,
         docViewer: true,
         showFullScreenButton: true,
-        autoOpen: true,
+        autoOpen: false,
         hideWhenNotConnected: false,
         onWidgetEvent: {
           onChatOpen: () => {
@@ -193,11 +193,9 @@ body.mobile #webchat .widget-container.chat-open {
   }
 
   .conversation-container .close-button {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
-
-    display: inline-block;
     background-color: #2089fb;
     border: 0;
     width: 40px;
