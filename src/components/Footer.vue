@@ -5,7 +5,7 @@
         {{ $t('extraInfo.text') }}
 
         <div class="bms-container">
-          <div class="columns has-text-centered-tablet">
+          <div class="columns has-text-centered-tablet p-b-1">
             <div class="column has-text-left-tablet has-text-centered">
               <div class="m-t-1">
 <!--                <img src="../assets/img/icons/local.svg" />-->
@@ -28,7 +28,6 @@
             </div>
 
             <div class="column has-text-right-tablet has-text-centered">
-              <div class="m-t-1 has-text-weight-bold">{{ $t('footer.about') }}</div>
               <div class="">
                 <a href="https://www.facebook.com/unicefeca" target="_blank">
                   <img class="m-1" src="../assets/img/icons/fb.svg" />
